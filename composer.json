@@ -1,0 +1,49 @@
+{
+    "name": "symfony/mattermost-notifier",
+    "type": "symfony-bridge",
+    "description": "Symfony Mattermost Notifier Bridge",
+    "keywords": [
+        "mattermost",
+        "notifier"
+    ],
+    "homepage": "https://github.com/Jeroeny/mattermost-bridge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen Spee",
+            "email": "spee.jeroen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.9",
+        "symfony/event-dispatcher-contracts": "^1.1",
+        "symfony/http-client": "^4.3|^5.0",
+        "symfony/notifier": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "symfony/event-dispatcher": "^4.3|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notifier\\Bridge\\Mattermost\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Notifier\\Bridge\\Mattermost\\Tests\\": "Tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.0-dev"
+        }
+    }
+}
