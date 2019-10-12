@@ -9,5 +9,7 @@ install:
 - composer install --no-progress
 
 script:
-- ./vendor/bin/phpunit --coverage-text --colors=never
+- ./vendor/bin/phpunit --coverage-clover=coverage.xml
 
+after_success:
+- bash <(curl -s https://codecov.io/bash)
