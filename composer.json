@@ -1,10 +1,13 @@
 {
-    "name": "symfony/mattermost-notifier",
+    "name": "jeroeny/mattermost-notifier",
     "type": "symfony-bridge",
-    "description": "Symfony Mattermost Notifier Bridge",
+    "description": "Mattermost Bridge for Symfony Notifier",
     "keywords": [
         "mattermost",
-        "notifier"
+        "notifier",
+        "notify",
+        "chat",
+        "webhook"
     ],
     "homepage": "https://github.com/Jeroeny/mattermost-bridge",
     "license": "MIT",
