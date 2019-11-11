@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": "^7.2.9",
-        "symfony/event-dispatcher-contracts": "^1.1",
+        "symfony/event-dispatcher-contracts": "^2.0",
         "symfony/http-client": "^4.3|^5.0",
         "symfony/notifier": "^5.0"
     },
